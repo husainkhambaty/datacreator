@@ -1,0 +1,16 @@
+{
+  "name": "data-creator",
+  "version": "1.0.0",
+  "description": "Create DB Test Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test-data",
+    "testing",
+    "db"
+  ],
+  "author": "Husain Khambaty",
+  "license": "ISC"
+}
