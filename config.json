@@ -3,15 +3,15 @@
         "records" : 10,
         "columns" :
             [
-                { "name": "uid", "type" : "bigint", "length" : "8", "sequence" : true }, 
-                { "name": "account", "type" : "char", "length" : "16" }, 
-                { "name": "trans_code", "type" : "int", "length" : "9" }, 
-                { "name": "reason", "type" : "char", "length" : "2", "case": "UPPER"}, 
+                { "name": "uid", "type" : "bigint", "length" : 8, "sequence" : true, "start" : 220}, 
+                { "name": "account", "type" : "char", "length" : 16 }, 
+                { "name": "trans_code", "type" : "int", "length" : 9 }, 
+                { "name": "reason", "type" : "char", "length" : 2, "case": "UPPER"}, 
                 { "name": "post_dt", "type" : "date", "start" : "2018-04-11 08:10:59" }, 
                 { "name": "trans_dt", "type" : "date", "start" : "2018-04-11 08:10:59" },
-                { "name": "amount", "type" : "float", "range" : { "start" : "20", "end" : "40" } , "precision" : "2" }
+                { "name": "amount", "type" : "float", "start" : 20, "end" : 40, "precision" : 2 }
             ],
-        "output" : "csv"
+        "output" : "csv" 
     }
         
 }
